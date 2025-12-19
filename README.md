@@ -1,4 +1,4 @@
-# Hude Hider
+# HUD Hider
 
 Fork of HUD Auto Hide
 Origninal mod is HUD Auto Hide [Link](https://mods.factorio.com/mod/hud-auto-hide)
