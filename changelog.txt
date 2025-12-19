@@ -1,0 +1,56 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3, 0.1.3
+Date: 2024-11-24
+  Bugfixes:
+    - Interraction with items in chests and machines inventory should not close UI now.
+  Changes:
+    - For better compatibility with everything SHIFT-E shortcut is not used by this mod by default.
+    - Completely unnecessary mod size optimization.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2, 0.1.2
+Date: 2024-11-17
+  Changes:
+    - Ignore other mods UI, only hide vanilla UI for better compatibility with mods like SE and K2.
+      Previous behavior can be enabled via mod settings.
+    - Do not automatically make all UI windows visible when mod first installed. This was needed
+      for migration from early versions of this mod. "Show all HUD windows" hotkey can be assigned
+      and used to reveal all hidden UI windows when needed for problematic old game saves.
+    - Build corresponding 0.1.x versions of the mod for Factorio 1.1, since SE and K2 only work
+      with old version of Factorio at the moment.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2024-11-15
+  Changes:
+    - Optimize mod file size.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2024-10-29
+  Changes:
+    - Migrate to Factorio 2.0 API.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2023-08-05
+  Features:
+    - Manual mode. Toggle HUD manually with SHIFT + E hotkey instead of doing this automatically.
+      Manual mode can be enabled via settings (off by default).
+  Changes:
+    - Hotkey to 'show all HUD windows' is not assigned to CONTROL + SHIFT + E by default any more.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 2023-07-26
+  Features:
+    - Show all HUD windows on CONTROL + SHIFT + E. Useful for removing the mod from your save.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 2023-05-14
+  Features:
+    - Show Quickbar (which includes a health bar) during combat (if you are firing and ammo
+      inventory changes).
+  Bugfixes:
+    - Do not reveal other mods UI if it has not been hidden by HUD Auto Hide initially.
+    - Do not reveal or hide UI when the map or research UI is opened or closed.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2023-05-13
+  Major Features:
+    - Initial release.

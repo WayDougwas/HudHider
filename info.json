@@ -1,0 +1,9 @@
+{
+  "name": "hud-auto-hide",
+  "version": "0.2.4",
+  "title": "HUD Auto Hide",
+  "author": "nicck",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0"],
+  "description": "Automatically hide HUD when inventory is closed and show when opened. Or do it manually with hotkey."
+}

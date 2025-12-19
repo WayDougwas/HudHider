@@ -1,0 +1,1 @@
+data:extend({{type="custom-input",name="hud-auto-hide-show-everything",key_sequence=""},{type="custom-input",name="hud-auto-hide-show-manual",key_sequence=""}})
